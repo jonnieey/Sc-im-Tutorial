@@ -7,17 +7,17 @@ format A 75 2 0
 format B 38 2 0
 format 20 3
 format 21 3
-leftstring A0 = "1.Go to C8. Enter =@sum(E0:E5,@eqs(D0, \"Male\"))"
+leftstring A0 = "1.Go to C9. Enter =@sum(E0:E5,@eqs(D0, \"Male\"))"
 label B0 = "Name"
 label C0 = "Age"
 label D0 = "Gender"
 label E0 = "Marks"
-leftstring A1 = "2.Go to C9. Enter =@sum(E0:E5,@eqs(D0, \"Female\"))"
+leftstring A1 = "2.Go to C10. Enter =@sum(E0:E5,@eqs(D0, \"Female\"))"
 leftstring B1 = "John"
 let C1 = 19
 label D1 = "Male"
 let E1 = 63
-leftstring A2 = "3.Go to C10. Enter =avg(E0:E5, C0<24)"
+leftstring A2 = "3.Go to C11. Enter =@avg(E0:E5, C0<24)"
 leftstring B2 = "Jane"
 let C2 = 21
 label D2 = "Female"
@@ -51,7 +51,6 @@ label B14 = "RSI VALUE"
 let C14 = 80
 leftstring A20 = "NOTE: @eqs({string_expr1}, {string_expr2}).\n Returns 1 if string_exp1 is equal to string_expr2"
 leftstring A21 = "NOTE: command int recalc re-evaluates\n the dep-graph to get updated values"
-cellcolor C8 "fg=WHITE bg=BLUE"
 cellcolor C9 "fg=WHITE bg=BLUE"
 cellcolor C10 "fg=WHITE bg=BLUE"
 cellcolor C11 "fg=WHITE bg=BLUE"
