@@ -63,7 +63,7 @@ let I4 = 52
 let J4 = 53
 let K4 = 54
 let L4 = 55
-leftstring A5 = "4. Go to E1. Press y."
+leftstring A5 = "4. Go to E1. Press yy."
 let B5 = 56
 let C5 = 57
 let D5 = 58
@@ -141,4 +141,4 @@ leftstring A15 = "11. Go to B1. Press v. Press #."
 leftstring A16 = "12. Press sl to shift range to right"
 cellcolor A3 "fg=RED bg=BLACK"
 cellcolor A11 "fg=RED bg=BLACK"
-goto A0
+goto A5
