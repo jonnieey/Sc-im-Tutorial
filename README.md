@@ -11,11 +11,11 @@ Provide introductory lessons to sc-im.
 2. Lesson2 - Formatting cell contents
 3. Lesson3 - Copy, Paste, Cut basics
 4. Lesson4 - Copy, Paste, Cut
-5. Lesson5 - Visual Mode
-6. Lesson6 - Marks
-7. Lesson7 - Insert and Edit values
-8. Lesson8 - sc-im modes
-9. Lesson9 - Basic commands
+5. Lesson5 - Marks
+6. Lesson6 - Sc-im Modes
+7. Lesson7 - Insert and Edit Mode
+8. Lesson8 - Visual Mode
+9. Lesson9 - Command Mode
 10. Lesson10 - Configuration File
 11. Lesson11 - Numeric Functions
 12. Lesson12 - String Functions
