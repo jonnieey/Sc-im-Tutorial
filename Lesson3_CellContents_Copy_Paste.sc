@@ -6,7 +6,6 @@ movetosheet "Sheet1"
 format A 69 2 0
 format 12 3
 format 16 3
-freeze A
 leftstring A0 = "1. Press fc to freeze column A."
 let B0 = 2
 let C0 = 3

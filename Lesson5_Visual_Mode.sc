@@ -3,7 +3,9 @@
 
 newsheet "Sheet1"
 movetosheet "Sheet1"
-format A 54 2 0
+format A 56 2 0
+format B 8 2 0
+format 23 2
 leftstring A0 = "1. Go to B0. Press v. Move using hjkl or arrows to D3."
 let B0 = 1
 let C0 = 2
@@ -139,6 +141,53 @@ leftstring A13 = "9. Go to G1. Press v. Use hjkl or arrows to move to I3."
 leftstring A14 = "10. Press sj to shift range of cells down"
 leftstring A15 = "11. Go to B1. Press v. Press #."
 leftstring A16 = "12. Press sl to shift range to right"
+leftstring A20 = "13. Go to B27. Enter =@sum(B20:B26) or :fsum"
+let B20 = 4
+let C20 = 11
+let D20 = 18
+let E20 = 25
+let F20 = 32
+let G20 = 39
+leftstring A21 = "14. At B27 press yy to yank formula"
+let B21 = 46
+let C21 = 53
+let D21 = 60
+let E21 = 67
+let F21 = 74
+let G21 = 81
+leftstring A22 = "15. Press v to enter visual mode and select B27 to G27"
+let B22 = 88
+let C22 = 95
+let D22 = 102
+let E22 = 109
+let F22 = 116
+let G22 = 123
+leftstring A23 = "16. Press P (shift+p) or :fcopy c  to copy formula\n across the columns"
+let B23 = 130
+let C23 = 137
+let D23 = 144
+let E23 = 151
+let F23 = 158
+let G23 = 165
+let B24 = 172
+let C24 = 179
+let D24 = 186
+let E24 = 193
+let F24 = 200
+let G24 = 207
+let B25 = 214
+let C25 = 221
+let D25 = 228
+let E25 = 235
+let F25 = 242
+let G25 = 249
+let B26 = 256
+let C26 = 263
+let D26 = 270
+let E26 = 277
+let F26 = 284
+let G26 = 291
 cellcolor A3 "fg=RED bg=BLACK"
 cellcolor A11 "fg=RED bg=BLACK"
-goto A5
+cellcolor B27 "fg=BLACK bg=RED"
+goto A0
