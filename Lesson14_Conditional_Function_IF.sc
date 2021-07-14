@@ -7,17 +7,17 @@ format A 75 2 0
 format B 38 2 0
 format 20 3
 format 21 3
-leftstring A0 = "1.Go to C9. Enter =@sum(E0:E5,@eqs(D0, \"Male\"))"
+leftstring A0 = "1.Go to C9. Type =@sum(E0:E5,@eqs(D0, \"Male\"))"
 label B0 = "Name"
 label C0 = "Age"
 label D0 = "Gender"
 label E0 = "Marks"
-leftstring A1 = "2.Go to C10. Enter =@sum(E0:E5,@eqs(D0, \"Female\"))"
+leftstring A1 = "2.Go to C10. Type =@sum(E0:E5,@eqs(D0, \"Female\"))"
 leftstring B1 = "John"
 let C1 = 19
 label D1 = "Male"
 let E1 = 63
-leftstring A2 = "3.Go to C11. Enter =@avg(E0:E5, C0<24)"
+leftstring A2 = "3.Go to C11. Type =@avg(E0:E5, C0<24)"
 leftstring B2 = "Jane"
 let C2 = 21
 label D2 = "Female"
@@ -26,7 +26,7 @@ leftstring B3 = "Stephen"
 let C3 = 23
 label D3 = "Male"
 let E3 = 69
-leftstring A4 = "5.Go to D13. Enter \\"@if(C13<40, \"Weak\", \"Strong\")  "
+leftstring A4 = "5.Go to D13. Type \\"@if(C13<40, \"Weak\", \"Strong\")  "
 leftstring B4 = "Mary"
 let C4 = 25
 label D4 = "Female"
@@ -36,13 +36,13 @@ leftstring B5 = "Abigael"
 let C5 = 27
 label D5 = "Female"
 let E5 = 75
-leftstring A6 = "7.Enter :int recalc "
+leftstring A6 = "7.Type :int recalc "
 leftstring A7 = "8.Change value of C13 to 90"
-leftstring A8 = "9.Enter :int recalc "
+leftstring A8 = "9.Type :int recalc "
 leftstring B9 = "Sum marks of male students"
 leftstring A10 = "10.Go to D14. "
 leftstring B10 = "Sum marks of female students"
-leftstring A11 = "11.Enter \\"@if(C14<30, \"Oversold\", @if(C14>70, \"Overbought\", \"Normal\"))"
+leftstring A11 = "11.Type \\"@if(C14<30, \"Oversold\", @if(C14>70, \"Overbought\", \"Normal\"))"
 leftstring B11 = "Average marks of students below 24 yrs"
 leftstring A12 = "12.Repeat steps 7-10 for C14"
 label B13 = "ADX VALUE"

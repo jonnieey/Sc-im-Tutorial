@@ -141,7 +141,7 @@ leftstring A13 = "9. Go to G1. Press v. Use hjkl or arrows to move to I3."
 leftstring A14 = "10. Press sj to shift range of cells down"
 leftstring A15 = "11. Go to B1. Press v. Press #."
 leftstring A16 = "12. Press sl to shift range to right"
-leftstring A20 = "13. Go to B27. Enter =@sum(B20:B26) or :fsum"
+leftstring A20 = "13. Go to B27. Type =@sum(B20:B26) or :fsum"
 let B20 = 4
 let C20 = 11
 let D20 = 18
