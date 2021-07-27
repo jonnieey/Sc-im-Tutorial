@@ -4,6 +4,7 @@
 newsheet "Sheet1"
 movetosheet "Sheet1"
 format A 91 2 0
+format 12 3
 leftstring A0 = "1. Type :file to see current file name"
 leftstring A1 = "1. Type :help to see the help page"
 leftstring A2 = "2. Type :set to show configuration options"
@@ -15,5 +16,6 @@ leftstring A7 = "7. Type :!pwd to execute shell command pwd"
 leftstring A8 = "8. Type : then press up arrow or Ctrl+p to scroll back in command history"
 leftstring A9 = "9. Type : then press down arrow  or Ctrl+n to scroll forward in command history"
 leftstring A10 = "10: Type :version to show sc-im version"
-leftstring A11 = "11. Type :wq or :x to save and quit"
+leftstring A12 = "11. Go to B17. Type :fill<space>. While in command mode press Ctrl+v to enter visual mode\nPress Ctrl+o to visually select cells B17:F21. Press Enter. Type <space> 1 1.\n     [Command :fill B17:F21 1 1]"
+leftstring A14 = "12. Type :wq or :x to save and quit"
 goto A0
