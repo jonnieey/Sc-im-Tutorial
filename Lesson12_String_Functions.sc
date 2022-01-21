@@ -13,5 +13,5 @@ leftstring A2 = "3. Go to B4. Type \\"@capital(B0)"
 leftstring A3 = "4. Go to B5. Type \\"@replace(B0, \"brown\", \"black\")"
 leftstring A4 = "5. Go to B6. Type \\"@substr(B0, 5, 15)"
 leftstring A5 = "6. Go to B7. Type \\"@coltoa(@mycol) to return current column name"
-leftstring A8 = "7. Go to B9. Type \\"fmt(\"###%3.3f**\", C0)"
+leftstring A8 = "7. Go to B9. Type \\"@fmt(\"###%3.3f**\", C0)"
 goto A0
