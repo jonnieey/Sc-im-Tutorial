@@ -3,6 +3,12 @@
 
 newsheet "Sheet1"
 movetosheet "Sheet1"
+offscr_sc_cols 0
+offscr_sc_rows 0
+nb_frozen_rows 0
+nb_frozen_cols 0
+nb_frozen_screenrows 0
+nb_frozen_screencols 0
 format A 74 2 0
 format B 63 2 0
 leftstring A0 = "Recalculate values automatically"
@@ -47,6 +53,6 @@ leftstring B25 = "color \"type=INPUT fg=MAGENTA bg=BLACK\""
 leftstring B26 = "color \"type=CELL_SELECTION fg=comment bg=altbackground bold=0\""
 leftstring A28 = "To load theme file at runtime"
 leftstring B28 = ":load /path/to/themefile.sc"
-leftstring A29 = "Example Type :load themefile_old.sc"
+leftstring A29 = "Example Type :load theme_file_old.sc"
 cellcolor A29 "fg=BLACK bg=BLUE"
 goto A0

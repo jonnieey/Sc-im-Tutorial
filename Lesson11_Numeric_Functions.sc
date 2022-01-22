@@ -3,23 +3,29 @@
 
 newsheet "Sheet1"
 movetosheet "Sheet1"
+offscr_sc_cols 0
+offscr_sc_rows 0
+nb_frozen_rows 0
+nb_frozen_cols 0
+nb_frozen_screenrows 0
+nb_frozen_screencols 0
 format A 76 2 0
 format C 16 2 0
 format D 16 2 0
 format 19 2
-leftstring A0 = "1. Type :fill B0:B5 1 1"
-leftstring D0 = "Sum:"
-leftstring D1 = "Product:"
-leftstring A2 = "2. Go to E0. Type =@sum(B0:B5)"
-leftstring D2 = "Max"
-leftstring A3 = "3. Go to E1. Type =@prod(B0:B5)"
-leftstring D3 = "Min"
-leftstring A4 = "4. Go to E2. Type =@max(B0:B5)"
-leftstring D4 = "Average"
-leftstring A5 = "5. Go to E3. Type =@min(B0:B5)"
-leftstring D5 = "Number of values"
-leftstring A6 = "6. Go to E4. Type =@avg(B0:B5)"
-leftstring A7 = "7. Go to E5. Type =@count(B0:B5)"
+leftstring A0 = "1. Type :fill B2:B7 1 1"
+leftstring A2 = "2. Go to E0. Type =@sum(B2:B7)"
+leftstring D2 = "Sum:"
+leftstring A3 = "3. Go to E1. Type =@prod(B2:B7)"
+leftstring D3 = "Product:"
+leftstring A4 = "4. Go to E2. Type =@max(B2:B7)"
+leftstring D4 = "Max"
+leftstring A5 = "5. Go to E3. Type =@min(B2:B7)"
+leftstring D5 = "Min"
+leftstring A6 = "6. Go to E4. Type =@avg(B2:B7)"
+leftstring D6 = "Average"
+leftstring A7 = "7. Go to E5. Type =@count(B2:B7)"
+leftstring D7 = "Number of values"
 label A9 = "#### OTHER FUNCTIONS ####"
 rightstring A10 = "NUMBER"
 let C10 = 46.83258932
