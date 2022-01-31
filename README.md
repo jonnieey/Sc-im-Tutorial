@@ -1,8 +1,12 @@
-# sc-im
+# SC-IM
 [sc-im](https://github.com/andmarti1424/sc-im) is an ncurses based, vim-like spreadsheet calculator based on sc.
 
-## sc-im tutorial
-Provide introductory lessons to sc-im.
+## DESCRIPTION
+Introductory sc-im tutorial.
+
+## INSTRUCTIONS
+Open files with sc-im eg. 
+  `sc-im 'Lesson1 - Navigation.sc'`
 
 ### LESSONS
 
